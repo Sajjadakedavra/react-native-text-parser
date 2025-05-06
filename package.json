@@ -1,6 +1,32 @@
 {
   "name": "eula-helper",
-  "version": "1.0.0",
+  "version": "0.0.1",
+  "description": "A small yet powerful React Native package that simplifies rendering long EULA, Privacy Policies, or any similar text directly inside your app.",
   "main": "index.js",
-  "license": "MIT"
+  "files": [
+    "src/",
+    "index.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "react-native",
+    "eula",
+    "parse"
+  ],
+  "author": "Syed Sajjad Raza Rizvi <sajjad.r.rizvi@outlook.com>",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": ">=16.8.0",
+    "react-native": ">=0.60.0",
+    "react-native-parsed-text": "^0.0.22"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Sajjadakedavra/react-native-text-parser.git"
+  },
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "https://github.com/Sajjadakedavra/react-native-text-parser.git#readme"
 }
